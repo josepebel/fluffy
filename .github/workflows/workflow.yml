@@ -15,5 +15,5 @@ jobs:
       - name: Hello world
         shell: bash
         run: |
-          ls -a
+          ls
       
