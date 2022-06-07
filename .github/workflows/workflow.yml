@@ -4,4 +4,4 @@ on:
 
 jobs:
   compliance:
-    uses: josepebel/fluffy-workflow/.github/workflows/action.yml@main
+    uses: josepebel/fluffy-workflows/.github/workflows/action.yml@main
