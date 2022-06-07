@@ -3,5 +3,5 @@ on:
   workflow_dispatch:
 
 jobs:
-  compliance:
+  call-workflow:
     uses: josepebel/fluffy-workflows/.github/workflows/action.yml@main
