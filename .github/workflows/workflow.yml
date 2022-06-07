@@ -1,4 +1,4 @@
-name: Hola
+name: First workflow
 on:
   workflow_dispatch:
   push:
