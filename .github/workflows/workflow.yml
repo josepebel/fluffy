@@ -5,3 +5,5 @@ on:
 jobs:
   call-workflow:
     uses: josepebel/fluffy-workflows/.github/workflows/action.yml@main
+    secrets:
+      MY_SECRET: ${{ secrets.MY_SECRET }}
