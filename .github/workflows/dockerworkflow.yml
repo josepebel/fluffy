@@ -1,0 +1,8 @@
+name: Second workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  call-workflow:
+    uses: josepebel/fluffy-workflows/.github/workflows/docker.yml@main
+  
