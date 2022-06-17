@@ -1,0 +1,7 @@
+name: Third workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  call-workflow:
+    uses: josepebel/fluffy-workflows/.github/workflows/docker-postgres.yml@main
