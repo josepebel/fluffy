@@ -1,14 +1,14 @@
 name: Cron Actions
 on: 
   schedule:
-  - cron: '*/5 * * * *'
+  - cron: '* * * * *'
 
 jobs:
-  CronJob:
+  cronJob:
     name: Cron job
     runs-on: ubuntu-latest
 
     steps:
-    - name: Git checkout
+    - name: Echo text
       run: |
          echo "This is a cron job"
