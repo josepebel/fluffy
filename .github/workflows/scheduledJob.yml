@@ -1,0 +1,14 @@
+name: Cron Actions
+on: 
+  schedule:
+  - cron: '*/5 * * * *'
+
+jobs:
+  CronJob:
+    name: Cron job
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Git checkout
+      run: |
+         echo "This is a cron job"
