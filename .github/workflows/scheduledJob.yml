@@ -4,7 +4,7 @@ on:
   - cron: '* * * * *'
 
 jobs:
-  cronJob:
+  cronjob:
     name: Cron job
     runs-on: ubuntu-latest
 
