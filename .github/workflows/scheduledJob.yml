@@ -10,4 +10,4 @@ jobs:
     steps:
     - name: Echo text
       run: |
-         echo "This is a cron job"
+         echo "This is a cron job."
